@@ -1,0 +1,28 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+	  
+		
+		/*/ '\u0061' corresponde a letra 'a' na tabela unicode
+		int \u0061=5,b=10;
+		System.out.println("Operadores Aritméticos");
+		System.out.println("Soma: "+ (a+b));
+		System.out.println("Subtração: "+ (a-b));
+		System.out.println("Multiplicação: "+ (a*b));
+		System.out.println("Divisão: "+ (a/b));
+		System.out.println("Módulo: "+ (a%b));
+		*/
+			
+		// <PF> Ponto Flutuante
+		// importação necessária java.util.Locale
+		
+			double x = 10.35784;
+			System.out.printf("%.2f%n", x);
+			System.out.printf("%.4f%n", x);
+			Locale.setDefault(Locale.US);
+		//</PF>
+	}
+
+}
