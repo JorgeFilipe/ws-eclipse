@@ -16,7 +16,6 @@ public class Main {
 			
 		// <PF> Ponto Flutuante
 			double x = 10.35784;
-		
 		//</PF>
 	}
 
