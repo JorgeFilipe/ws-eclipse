@@ -1,3 +1,4 @@
+import java.util.Locale;
 
 public class Main {
 
@@ -15,8 +16,14 @@ public class Main {
 		*/
 			
 		// <PF> Ponto Flutuante
+		// importação necessária java.util.Locale
+		
 			double x = 10.35784;
 			System.out.printf("%.2f%n", x);
+			System.out.printf("%.4f%n", x);// O número exibido está com vírgula por causa do idioma, no Portugues o separador de decimais é a vírgula (,).
+			
+			Locale.setDefault(Locale.US); // Altera para o separador de decimais do idioma Inglês que é o ponto (.)
+			System.out.printf("%.4f%n", x);
 		//</PF>
 	}
 
