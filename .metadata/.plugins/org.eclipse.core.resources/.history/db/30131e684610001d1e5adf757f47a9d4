@@ -62,10 +62,10 @@ public class Main {
 		// Scenery
 			System.out.printf("Products: %n"
 			+ "%s, pay just U$%.2f "
-			+ "%n %s, today for U$%.2f"
-			+ "%n for women's clients with %d years present the code: %d in the market box for discount"
-			+ "%n %n Measure: %f"
-			+ "%n Rouded:%.3f",product1,price1,product2,price2,age,code,measure,measure);
+			+ "%n%s, today for U$%.2f"
+			+ "%nfor women's clients with %d years present the code: %d in the market box for discount"
+			+ "%n%n Measure: %f"
+			+ "%nRouded:%.3f",product1,price1,product2,price2,age,code,measure,measure);
 		
 	}
 

@@ -55,17 +55,17 @@ public class Main {
 		
 		char gender = 'F';
 		
-		double price1 = 2100.0;
-		double price2 = 999.90;
+		double price1 = "2100.0";
+		double price2 = "999.90";
 		double measure = 53.234567;
 		
 		// Scenery
 			System.out.printf("Products: %n"
-			+ "%s, pay just U$%.2f "
-			+ "%n %s, today for U$%.2f"
-			+ "%n for women's clients with %d years present the code: %d in the market box for discount"
-			+ "%n %n Measure: %f"
-			+ "%n Rouded:%.3f",product1,price1,product2,price2,age,code,measure,measure);
+					+ " %s, pay just U$ %f "
+					+ "%n %s, today for %f"
+					+ "%n for women's clients with %d years present the code: %d in the market box for discount"
+					+ "%n Measure: %f"
+					+ "%n Rouded:%.3f",product1,price1,product2,price2,age,code,measure,measure);
 		
 	}
 
