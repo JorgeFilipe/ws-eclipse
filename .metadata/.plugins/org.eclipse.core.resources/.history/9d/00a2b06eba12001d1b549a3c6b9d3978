@@ -63,21 +63,15 @@ public class Main {
 		area=(((b+B)/2f)*h);
 		System.out.print("Area = "+area);
 		
+		*/
 		
+		int a,b;
+		double resultado;
+		a=5;
+		b=2;
+		resultado = (double) a/b;
+		System.out.println(resultado);
 		
-		// CASTING = Conversão explícita dos valores;
-			int a,b;
-			double resultado;
-			a=5;
-			b=2;
-			resultado = (double) a/b; // CASTING aplicado aqui sem o (double) irá retornar apenas 2.0 e não o valor decimal.
-			System.out.println(resultado);
-			double c;
-			int d;
-			c = 5.0;
-			d = (int) c; // CASTING aplicado aqui convertendo double para inteiro não se importando com a possível perda de informação
-		
-		*/	
 		
 	}
 

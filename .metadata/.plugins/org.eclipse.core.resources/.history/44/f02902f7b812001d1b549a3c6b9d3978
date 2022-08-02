@@ -19,12 +19,15 @@ public class Main {
 			
 		// <PF> Ponto Flutuante
 		// importação necessária java.util.Locale
+		
 			double x = 10.35784;
 			double pi= 3.14159265;
 			System.out.printf("Valor de PI: %.2f%n", pi);
 			System.out.printf("Valor de PI: %.4f%n", pi);
 			System.out.printf("Valor de PI: %.6f%n", pi);
+			
 			System.out.printf("Separador de decimais Brasil: %.4f%n", x);// O número exibido está com vírgula por causa do idioma, no Portugues o separador de decimais é a vírgula (,).
+			
 			Locale.setDefault(Locale.US); // Altera para o separador de decimais do idioma Inglês que é o ponto (.)
 			System.out.printf("Separador de decimais dos Unite States: %.4f%n", x);
 		//</PF>
@@ -35,6 +38,7 @@ public class Main {
 		String nome = "Maria";
 		int idade = 25;
 		double salario = 4655.83;
+		
 		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n",nome,idade,salario);
 	
 		
@@ -42,14 +46,19 @@ public class Main {
 		
 		/// Exercício de fixação
 		Locale.setDefault(Locale.US);
+		
 		String product1 = "Computer";
 		String product2 = "Office Desk";
+		
 		int age = 22;
 		int code = 7030;
+		
 		char gender = 'F';
+		
 		double price1 = 2100.0;
 		double price2 = 999.90;
 		double measure = 53.234567;
+		
 		// Scenery
 			System.out.printf("Products: %n"
 			+ "%s, pay just U$%.2f "
@@ -57,27 +66,14 @@ public class Main {
 			+ "%n for women's clients with %d years present the code: %d in the market box for discount"
 			+ "%n %n Measure: %f"
 			+ "%n Rouded:%.3f",product1,price1,product2,price2,age,code,measure,measure);
+		*/
 		
+		int b=6,B=8,h=5;
+		double area=0;
 		
-		float area,b=6f,B=8f,h=5f;
-		area=(((b+B)/2f)*h);
+		area=(((b+B)/2)*5);
+		
 		System.out.print("Area = "+area);
-		
-		
-		
-		// CASTING = Conversão explícita dos valores;
-			int a,b;
-			double resultado;
-			a=5;
-			b=2;
-			resultado = (double) a/b; // CASTING aplicado aqui sem o (double) irá retornar apenas 2.0 e não o valor decimal.
-			System.out.println(resultado);
-			double c;
-			int d;
-			c = 5.0;
-			d = (int) c; // CASTING aplicado aqui convertendo double para inteiro não se importando com a possível perda de informação
-		
-		*/	
 		
 	}
 
