@@ -40,7 +40,7 @@ public class Main {
 		double salario = 4655.83;
 		
 		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n",nome,idade,salario);
-	
+		*/
 		
 		
 		
@@ -66,14 +66,6 @@ public class Main {
 			+ "%n for women's clients with %d years present the code: %d in the market box for discount"
 			+ "%n %n Measure: %f"
 			+ "%n Rouded:%.3f",product1,price1,product2,price2,age,code,measure,measure);
-		*/
-		
-		int b=6,B=8,h=5;
-		double area=0;
-		
-		area=(((b+B)/2)*5);
-		
-		System.out.print("Area = "+area);
 		
 	}
 
