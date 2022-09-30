@@ -1,6 +1,5 @@
 import java.util.Locale; /// importação para utilizar o Locale.setDefault
 import java.util.Scanner;
-import javax.swing.JOptionPane;
 
 public class Main {
 
@@ -81,53 +80,12 @@ public class Main {
 		
 		*/
 		
-		/*Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		String nome;
-		System.out.print("Informe um nome: ");
+		System.out.println("Informe um nome: ");
 		nome = sc.next();
 		System.out.println("Você digitou: "+ nome);
-		sc.close();*/
-		
-		/*Scanner ler = new Scanner(System.in);
-		int a,b;
-		String login, senha, confLogin, confSenha;
-		System.out.print("LOGIN: ");
-		login = ler.next();
-		System.out.print("SENHA: ");
-		senha = ler.next();
-		System.out.print("confirme o LOGIN: ");
-		confLogin = ler.next();
-		System.out.print("confirme a SENHA: ");
-		confSenha = ler.next();
-		ler.close();
-		//System.out.println("L-"+login+" S-"+senha+" || "+"CL-"+confLogin+" CS-"+confSenha);
-		
-		if(login.equals(confLogin) && senha.equals(confSenha)) {
-			// variavel.equals(variavel alvo da comparação) --> como comparar String c/ String
-			//System.out.println("Good job you are logged");
-			JOptionPane.showMessageDialog(null,"Good job you are logged");
-			System.out.print("Digite um valor para A: ");
-			a = ler.nextInt();
-			System.out.print("Digite um valor para B: ");
-			b = ler.nextInt();
-			ler.close();
-			System.out.println("Soma: "+ (a+b) );
-		}else {
-			System.out.println("wrong");
-		}*/
-		
-		
-		/*Scanner ler = new Scanner(System.in);
-		double a=10,b=5,x=2,y=6,raizquadrada,potenciacao, absoluto;
-		raizquadrada = Math.sqrt(25);
-		potenciacao = Math.pow(x, a);
-		y=(y-a);
-		absoluto = Math.abs(y);
-		System.out.println(raizquadrada);
-		System.out.println(potenciacao);
-		System.out.println(absoluto);// Deixa positivo o valor de um cálculo negativo
-		*/
-		
+		sc.close();
 	}
 
 }
