@@ -128,6 +128,27 @@ public class Main {
 		System.out.println(absoluto);// Deixa positivo o valor de um cálculo negativo
 		*/
 		
+		// <> EXERCÍCIOS DO MÓDULO "ESTRUTURA SEQUENCIAL"
+		
+		// Exercício 01: Faça um programa para ler 2 valores inteiros, e 
+		//               depois mostrar na tela a soma desses números com
+		//               uma mensagem explicativa, conforme exemplo:
+		// _____________________________
+		// |Entrada:      | Saída:      | 
+		// |--------------|-------------|
+		// |10			  |Soma = 40	|
+		// |30			  |				|
+		// |______________|_____________|
+		//  ____________________________
+		// |Entrada:      | Saída:      | 
+		// |--------------|-------------|
+		// |(-30)		  |Soma = (-20)	|
+		// |10			  |				|
+		// |______________|_____________|
+		
+		
+		// </> FIM "ESTRUTURA SEQUENCIAL"
+		
 	}
 
 }
