@@ -116,17 +116,15 @@ public class Main {
 			System.out.println("wrong");
 		}*/
 		
-		
-		/*Scanner ler = new Scanner(System.in);
+		Scanner ler = new Scanner(System.in);
 		double a=10,b=5,x=2,y=6,raizquadrada,potenciacao, absoluto;
-		raizquadrada = Math.sqrt(25);
+		raizquadrada = Math.sqrt(y);
 		potenciacao = Math.pow(x, a);
-		y=(y-a);
 		absoluto = Math.abs(y);
 		System.out.println(raizquadrada);
 		System.out.println(potenciacao);
-		System.out.println(absoluto);// Deixa positivo o valor de um cálculo negativo
-		*/
+		System.out.println(absoluto);
+		
 		
 	}
 
