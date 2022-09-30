@@ -129,7 +129,7 @@ public class Main {
 		*/
 		
 		// <> EXERCÍCIOS DO MÓDULO "ESTRUTURA SEQUENCIAL"
-		
+		//
 		// Exercício 01: Faça um programa para ler 2 valores inteiros, e 
 		//               depois mostrar na tela a soma desses números com
 		//               uma mensagem explicativa, conforme exemplo:
@@ -145,7 +145,12 @@ public class Main {
 		// |(-30)		  |Soma = (-20)	|
 		// |10			  |				|
 		// |______________|_____________|
-		
+		//
+		// RESOLUÇÂO:
+		Scanner ler = new Scanner(System.in);	
+		int a=0,b=0;
+		a = ler.nextInt();
+		b = ler.nextInt();
 		
 		// </> FIM "ESTRUTURA SEQUENCIAL"
 		
